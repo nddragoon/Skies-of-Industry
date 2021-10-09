@@ -1,0 +1,5 @@
+
+[general]
+	enableChunkLoading = false
+	enableFluxRecipe = false
+
