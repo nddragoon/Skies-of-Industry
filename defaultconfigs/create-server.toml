@@ -1,0 +1,11 @@
+
+[recipes]
+	enableRefinedRadianceRecipe = false
+	bulkPressing = true
+	bulkCutting = true
+	enableShadowSteelRecipe = false
+
+[fluids]
+	hosePulleyBlockThreshold = -1
+	fluidTankCapacity = 64
+
