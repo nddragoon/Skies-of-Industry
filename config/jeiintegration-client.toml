@@ -1,8 +1,6 @@
 
 [tooltip_options]
 	burnTimeTooltipMode = "enabled"
-	registryNameTooltipMode = "enabled"
 	nbtTooltipMode = "onShiftAndDebug"
-	tagsTooltipMode = "onShift"
 	durabilityTooltipMode = "enabled"
 
