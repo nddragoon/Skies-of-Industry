@@ -1,0 +1,6 @@
+
+[tooltip_options]
+	burnTimeTooltipMode = "enabled"
+	nbtTooltipMode = "onShiftAndDebug"
+	durabilityTooltipMode = "enabled"
+

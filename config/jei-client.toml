@@ -1,0 +1,14 @@
+
+[advanced]
+	GiveMode = "INVENTORY"
+	CenterSearch = true
+	MaxColumns = 100
+
+[search]
+	ModNameSearchMode = "REQUIRE_PREFIX"
+	TagSearchMode = "REQUIRE_PREFIX"
+	CreativeTabSearchMode = "REQUIRE_PREFIX"
+	ColorSearchMode = "REQUIRE_PREFIX"
+	ResourceIdSearchMode = "REQUIRE_PREFIX"
+	TooltipSearchMode = "ENABLED"
+

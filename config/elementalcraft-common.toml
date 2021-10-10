@@ -1,0 +1,7 @@
+
+[worldgen]
+	disableSourceSpawn = true
+
+[source]
+	disableSourceExhaustion = true
+

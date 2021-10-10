@@ -1,0 +1,6 @@
+
+[gameplay]
+	showAllAnvilVariants = false
+	showAllTableVariants = false
+	shouldSpawnWithTinkersBook = false
+
