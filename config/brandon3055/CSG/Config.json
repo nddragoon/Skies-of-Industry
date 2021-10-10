@@ -1,0 +1,8 @@
+{
+  "inventory": {
+    "1:3": "{id:\"create:goggles\",Count:1b}",
+    "0:0": "{id:\"create:wrench\",Count:1b}",
+    "0:1": "{id:\"refinedstorage:64k_storage_disk\",Count:1b}"
+  },
+  "wipeBlacklist": []
+}
