@@ -1,9 +1,11 @@
 {
   "inventory": {
+    "0:2": "{id:\"angelring:itemring\",Count:1b}",
     "1:3": "{id:\"create:goggles\",Count:1b}",
-    "0:1": "{id:\"refinedstorage:64k_storage_part\",Count:1b}",
-    "0:2": "{id:\"refinedstorage:storage_housing\",Count:1b}",
-    "0:0": "{id:\"create:wrench\",Count:1b}"
+    "0:4": "{id:\"refinedstorage:storage_housing\",Count:1b}",
+    "0:3": "{id:\"refinedstorage:64k_storage_part\",Count:1b}",
+    "0:0": "{id:\"morphtool:tool\",Count:1b,tag:{\"morphtool:data\":{framedblocks:{id:\"framedblocks:framed_wrench\",Count:1b},powah:{id:\"powah:wrench\",Count:1b,tag:{PowahWrenchNBT:{}}},integratedtunnels:{id:\"integrateddynamics:wrench\",Count:1b},mekanism:{id:\"mekanism:configurator\",Count:1b,tag:{mekData:{EnergyContainers:[{Container:0b,stored:\"60000\"}]}}},pipez:{id:\"pipez:wrench\",Count:1b},thermal:{id:\"thermal:wrench\",Count:1b},rftoolsbase:{id:\"rftoolsbase:smartwrench\",Count:1b},create:{id:\"create:wrench\",Count:1b},tinyredstone:{id:\"tinyredstone:redstone_wrench\",Count:1b},refinedstorage:{id:\"refinedstorage:wrench\",Count:1b}}}}",
+    "0:1": "{id:\"akashictome:tome\",Count:1b,tag:{\"akashictome:data\":{tconstruct:{id:\"tconstruct:encyclopedia\",Count:1b,tag:{mantle:{book:{current_page:\"small_tools.mattock\"}}}},industrialforegoing:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"industrialforegoing:industrial_foregoing\"}},powah:{id:\"powah:book\",Count:1b},astralsorcery:{id:\"astralsorcery:tome\",Count:1b},ftbquests:{id:\"ftbquests:book\",Count:1b},pneumaticcraft:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"pneumaticcraft:book\"}},immersiveengineering:{id:\"immersiveengineering:manual\",Count:1b},pedestals:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"pedestals:manual\"}},engineersdecor:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"engineersdecor:engineersdecor_manual\"}},elementalcraft:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"elementalcraft:element_book\"}},botania:{id:\"botania:lexicon\",Count:1b,tag:{\"botania:elven_unlock\":1b}},bloodmagic:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"bloodmagic:guide\"}},thermal:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"thermal:guidebook\"}},rftoolsbase:{id:\"rftoolsbase:manual\",Count:1b}}}}"
   },
   "wipeBlacklist": []
 }
