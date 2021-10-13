@@ -1,0 +1,16 @@
+
+[itemSelection]
+	#List of mods that are preferred when selecting items in recipes.
+	preferredMods = ["minecraft", "create", "thermal", "mekanism"]
+
+[recipes]
+	#List of recipes that should not be added.
+	blacklist = [
+		"jaopca:immersiveengineering.dust_to_material.yellorium",
+		"jaopca:thermal_expansion.dust_to_material.yellorium",
+		"jaopca:bloodmagic.material_to_dust.yellorium",
+		"jaopca:immersiveengineering.material_to_dust.yellorium",
+		"jaopca:mekanism.material_to_dust.yellorium",
+		"jaopca:thermal_expansion.material_to_dust.yellorium"
+	]
+
