@@ -1,7 +1,7 @@
 
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft", "create", "thermal", "mekanism"]
+	preferredMods = ["minecraft", "create", "thermal", "mekanism", "immersiveengineering"]
 
 [recipes]
 	#List of recipes that should not be added.
