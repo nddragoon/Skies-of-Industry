@@ -9,6 +9,7 @@ onEvent('recipes', e => {
     }
 
     metals('uranium', 'mekanism:ingot_uranium', 'mekanism:dust_uranium', 'mekanism:block_uranium', 'mekanism:nugget_uranium')
+    metals('copper', 'create:copper_ingot', 'thermal:copper_dust', 'create:copper_block', 'create:copper_nugget')
 
     function removeByID([recipes]) {
         for (i in recipes) {
