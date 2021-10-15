@@ -18,4 +18,17 @@ onEvent('recipes', e => {
         A: 'minecraft:andesite',
         C: '#forge:chests/wooden'
     }).id('kubejs:misc/shaped/andesite_drawer')
+
+
+
+    e.recipes.createMilling([
+        '4x kubejs:iron_oxide',
+        Item.of('thermal:iron_dust').withChance(0.25)
+    ], 'dustrial_decor:rusty_iron_ingot').id('kubejs:custom_items/milling/iron_oxide')
+
+    e.recipes.createCrushing([
+        '6x kubejs:iron_oxide',
+        Item.of('2x kubejs:iron_oxide').withChance(0.75),
+        Item.of('thermal:iron_dust').withChance(0.5)
+    ], 'dustrial_decor:rusty_iron_ingot').id('kubejs:custom_items/crushing/iron_oxide')
 })
