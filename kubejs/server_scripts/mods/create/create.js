@@ -9,9 +9,5 @@ onEvent('recipes', e => {
     }).id('kubejs:create/shaped/crude_alloy')
 
 
-
-    e.recipes.createSplashing([
-        '5x create:zinc_nugget',
-        Item.of('4x create:zinc_nugget').withChance(0.5)
-    ], 'compressium:gravel_1').id('kubejs:create/washing/zinc_nugget')
+    e.recipes.createSplashing('emendatusenigmatica:zinc_chunk', 'compressium:gravel_1').id('kubejs:create/washing/zinc_nugget')
 })

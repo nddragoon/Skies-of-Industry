@@ -10,7 +10,7 @@ onEvent('recipes', e => {
         e.replaceOutput(`#forge:rods/${metal}`, rod)
     }
 
-    //For metals fully handled by EE
+    //For metals fully handled by EE. Takes an array
     function emendatusMetals(metals) {
         metals.forEach(element => {
             e.replaceOutput(`#forge:ingots/${element}`, `emendatusenigmatica:${element}_ingot`)
