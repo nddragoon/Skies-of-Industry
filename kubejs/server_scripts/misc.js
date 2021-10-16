@@ -22,6 +22,10 @@ onEvent('recipes', e => {
         '4x kubejs:iron_oxide',
         Item.of('thermal:iron_dust').withChance(0.25)
     ], 'dustrial_decor:rusty_iron_ingot').id('kubejs:custom_items/milling/iron_oxide')
+    e.recipes.createMilling(
+        'kubejs:mote_of_power',
+        'create:large_cogwheel'
+    ).id('kubejs:custom_items/milling/mote_of_power')
 
     e.recipes.createCrushing([
         '6x kubejs:iron_oxide',

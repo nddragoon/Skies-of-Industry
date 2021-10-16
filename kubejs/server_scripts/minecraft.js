@@ -8,6 +8,4 @@ onEvent('recipes', e => {
     }).id('kubejs:minecraft/shaped/stone_pickaxe')
 
     e.shapeless('8x minecraft:redstone', ['kubejs:mote_of_power', '8x kubejs:iron_oxide']).id('kubejs:minecraft/shapeless/redstone')
-
-    e.smelting('minecraft:iron_ingot', 'compressium:gravel_1').id('kubejs:minecraft/smelting/iron_ingot')
 })
