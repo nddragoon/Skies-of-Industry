@@ -27,6 +27,21 @@ onEvent('recipes', e => {
         }
     }
 
+    e.replaceInput('thermal:sawdust', '#forge:dusts/wood')
+
+    e.replaceOutput('#forge:dusts/sulfur', 'emendatusenigmatica:sulfur_dust')
+    e.replaceOutput('#forge:dusts/wood', 'emendatusenigmatica:wood_dust')
+    e.replaceOutput([
+        '#forge:dusts/potassium_nitrate',
+        '#forge:dusts/niter',
+        '#forge:dusts/saltpeter'
+    ], 'emendatusenigmatica:potassium_nitrate_dust')
+    e.replaceOutput([
+        '#forge:gems/niter',
+        '#forge:gems/potassium_nitrate',
+        '#forge:gems/saltpeter'
+    ], 'emendatusenigmatica:potassium_nitrate_gem')
+
     miscMetals(
         'iron',
         'minecraft:iron_ingot',
