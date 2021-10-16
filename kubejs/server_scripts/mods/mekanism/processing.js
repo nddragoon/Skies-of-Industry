@@ -20,7 +20,6 @@ onEvent('recipes', e => {
             }
         }).id(`kubejs:mekanism/dissolution/${metal}`)
     }
-
     function mekWashing(metal) {
         e.custom({
             type: 'mekanism:washing',
@@ -38,7 +37,6 @@ onEvent('recipes', e => {
             }
         }).id(`kubejs:mekanism/washing/${metal}`)
     }
-
     function mekCrystallizing(metal) {
         e.custom({
             type: "mekanism:crystallizing",
@@ -50,7 +48,6 @@ onEvent('recipes', e => {
             output: {item: `emendatusenigmatica:${metal}_crystal`}
         }).id(`kubejs:mekanism/crystallizing/${metal}`)
     }
-
     function processingChain(metals) {
         metals.forEach(metal => {
             mekDissolution(metal)
@@ -76,7 +73,6 @@ onEvent('recipes', e => {
             ).id(`kubejs:mekanism/enriching/${metal}_dirty_dust`)
         })
     }
-
     function oreProcessing(metals) {
         metals.forEach(metal => {
             e.recipes.mekanismInjecting(
@@ -91,7 +87,6 @@ onEvent('recipes', e => {
             ).id(`kubejs:mekanism/purifying/${metal}/from_ore`)
         })
     }
-
 
     const emendatusMetals = [
         'aluminum',

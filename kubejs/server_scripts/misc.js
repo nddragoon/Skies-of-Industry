@@ -8,7 +8,6 @@ onEvent('recipes', e => {
         L: 'minecraft:oak_log',
         C: '#forge:chests/wooden'
     }).id('kubejs:misc/shaped/oak_drawer')
-    
     e.shaped(Item.of('framedcompactdrawers:framed_full_one', '{MatT:{id:"minecraft:air",Count:1b},MatF:{id:"minecraft:air",Count:1b},BlockEntityTag:{MatT:{id:"minecraft:air",Count:1b},MatF:{id:"minecraft:air",Count:1b},Upgrades:[{Slot:0b,id:"storagedrawers:creative_vending_upgrade",Count:1b}],MatS:{id:"minecraft:andesite",Count:1b},id:"framedcompactdrawers:framed_full_one",Drawers:[{Item:{id:"minecraft:andesite",Count:1b},Count:1}]},MatS:{id:"minecraft:andesite",Count:1b},display:{Lore:[\'"(+NBT)"\']}}'),
     [
         'AAA',
@@ -18,8 +17,6 @@ onEvent('recipes', e => {
         A: 'minecraft:andesite',
         C: '#forge:chests/wooden'
     }).id('kubejs:misc/shaped/andesite_drawer')
-
-
 
     e.recipes.createMilling([
         '4x kubejs:iron_oxide',

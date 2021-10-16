@@ -9,7 +9,6 @@ onEvent('recipes', e => {
         e.replaceOutput(`#forge:gears/${metal}`, gear)
         e.replaceOutput(`#forge:rods/${metal}`, rod)
     }
-
     //For metals fully handled by EE. Takes an array
     function emendatusMetals(metals) {
         metals.forEach(element => {
@@ -22,13 +21,11 @@ onEvent('recipes', e => {
             e.replaceOutput(`#forge:rods/${element}`, `emendatusenigmatica:${element}_rod`)
         })
     }
-
     function removeByID([recipes]) {
         for (i in recipes) {
             e.remove({id: i})
         }
     }
-
 
     miscMetals(
         'iron',
@@ -40,7 +37,6 @@ onEvent('recipes', e => {
         'emendatusenigmatica:iron_gear',
         'emendatusenigmatica:iron_rod'
     )
-
     miscMetals(
         'gold',
         'minecraft:gold_ingot',
@@ -51,7 +47,6 @@ onEvent('recipes', e => {
         'emendatusenigmatica:gold_gear',
         'emendatusenigmatica:gold_rod'
     )
-
 
     emendatusMetals([
         'copper',
