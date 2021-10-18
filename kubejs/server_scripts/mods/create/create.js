@@ -9,6 +9,4 @@ onEvent('recipes', e => {
     }).id('kubejs:create/shaped/crude_alloy')
 
     e.recipes.createSplashing('emendatusenigmatica:zinc_chunk', 'compressium:gravel_1').id('kubejs:create/washing/zinc_chunk')
-
-    e.remove({id: /create:conversion_*/, output: 'create:blaze_burner'})
 })
