@@ -17,6 +17,15 @@ onEvent('recipes', e => {
         A: 'minecraft:andesite',
         C: '#forge:chests/wooden'
     }).id('kubejs:misc/shaped/andesite_drawer')
+    e.shaped('kubejs:plant_ball', ['GGG', 'G G', 'GGG'], {
+        G: [
+            'minecraft:grass',
+            'minecraft:tall_grass',
+            'minecraft:fern',
+            'minecraft:large_fern'
+        ]
+    }).id('kubejs:misc/shaped/plant_ball')
+    e.shaped('kubejs:plant_ball', ['LL', 'LL'], {L: '#minecraft:leaves'})
 
     e.recipes.createMilling([
         '4x kubejs:iron_oxide',

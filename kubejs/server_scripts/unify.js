@@ -27,6 +27,7 @@ onEvent('recipes', e => {
         }
     }
 
+    e.replaceInput('#forge:ingots/yellorium', '#forge:ingots/uraniume')
     e.replaceInput('thermal:sawdust', '#forge:dusts/wood')
 
     e.replaceOutput('#forge:dusts/sulfur', 'emendatusenigmatica:sulfur_dust')
