@@ -1,0 +1,30 @@
+{
+    "name": "block.custommachinery.shipping_crate",
+    "appearance": {
+        "block": "minecraft:tnt"
+    },
+    "components": [{
+        "type": "custommachinery:item",
+        "id": "input",
+        "mode": "input"
+    }, {
+        "type": "custommachinery:item",
+        "id": "catalyst",
+        "mode": "input"
+    }, {
+        "type": "custommachinery:item",
+        "id": "output",
+        "mode": "output"
+    }],
+    "gui": [{
+        "type":"custommachinery:player_inventory",
+        "x": 47,
+        "y": 83
+    }, {
+        "type": "custommachinery:texture",
+        "x": 40,
+        "y": 0,
+        "texture": "custommachinery:textures/gui/base_background_1.png",
+        "priority": 1000
+    }]
+}

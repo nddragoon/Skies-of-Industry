@@ -42,6 +42,10 @@ onEvent('recipes', e => {
         '#forge:gems/potassium_nitrate',
         '#forge:gems/saltpeter'
     ], 'emendatusenigmatica:potassium_nitrate_gem')
+    e.replaceOutput('#forge:dusts/lapis', 'emendatusenigmatica:lapis_dust')
+    e.replaceOutput('#forge:dusts/diamond', 'emendatusenigmatica:diamond_dust')
+    e.replaceOutput('#forge:dusts/emerald', 'emendatusenigmatica:emerald_dust')
+    
 
     miscMetals(
         'iron',
