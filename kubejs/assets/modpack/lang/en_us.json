@@ -1,4 +1,7 @@
 {
     "block.custommachinery.shipping_crate": "Shipping Crate",
-    "fluid.bloodmagic.life_essence_fluid": "Life Essence Fluid"
+    "fluid.bloodmagic.life_essence_fluid": "Life Essence Fluid",
+    "item.kubejs.iron_oxide": "Iron Oxide",
+    "item.kubsjs.mote_of_power": "Mote of Power",
+    "item.kubejs.plant_ball": "Plant Ball"
 }

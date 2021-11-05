@@ -1,5 +1,5 @@
 onEvent('item.registry', e => {
-    e.create('iron_oxide').displayName('Iron Oxide')
-    e.create('mote_of_power').displayName('Mote of Power')
-    e.create('plant_ball').displayName('Plant Ball')
+    e.create('iron_oxide').displayName('items.kubejs.iron_oxide')
+    e.create('mote_of_power').displayName('items.kubejs.mote_of_power')
+    e.create('plant_ball').displayName('items.kubejs.plant_ball')
 })
