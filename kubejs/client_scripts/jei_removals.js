@@ -126,6 +126,8 @@ onEvent('jei.hide.items', e => {
         'copper_ingot',
         'cobalt_ingot'
     ])
+    
+    e.hide('kubejs:shipping_crate')
 
     hideOres (emendatusMaterials, emendatusStrata)
 })

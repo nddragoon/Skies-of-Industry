@@ -1,7 +1,7 @@
 {
     "name": "block.custommachinery.shipping_crate",
     "appearance": {
-        "block": "minecraft:tnt"
+        "block": "kubejs:shipping_crate"
     },
     "components": [{
         "type": "custommachinery:item",
@@ -29,7 +29,8 @@
         "type": "custommachinery:slot",
         "id": "catalyst",
         "x": 95,
-        "y": 53
+        "y": 53,
+        "item": "kubejs:shipping_stamp/sell_produce"
     }, {
         "type": "custommachinery:slot",
         "id": "output",
