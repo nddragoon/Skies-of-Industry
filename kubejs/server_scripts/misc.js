@@ -26,6 +26,10 @@ onEvent('recipes', e => {
         ]
     }).id('kubejs:misc/shaped/plant_ball')
     e.shaped('kubejs:plant_ball', ['LL', 'LL'], {L: '#minecraft:leaves'})
+        .id('kubejs:misc/shaped/plant_ball_from_leaves')
+    
+    e.shapeless('kubejs:shipping_stamp/sell_produce', ['minecraft:paper', 'minecraft:charcoal'])
+        .id('kubejs:misc/shapeless/shipping_stamp')
 
     e.recipes.createMilling([
         '4x kubejs:iron_oxide',

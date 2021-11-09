@@ -30,4 +30,6 @@ onEvent ('recipes', e => {
         'lumium',
         'enderium'
     ])
+
+    e.recipes.createCutting('10x thermal:silver_coin', 'thermal:gold_coin').id('kubejs:thermal/sawing/silver_coin')
 })

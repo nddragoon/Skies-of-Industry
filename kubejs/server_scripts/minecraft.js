@@ -21,7 +21,7 @@ onEvent('recipes', e => {
     e.shaped('minecraft:oak_sapling', ['BBB',  'BLB', ' L '], {
         B: 'kubejs:plant_ball',
         L: '#minecraft:logs'
-    })
+    }).id('kubejs:minecraft/shaped/sapling')
 
     e.shapeless('8x minecraft:redstone', ['kubejs:mote_of_power', '8x kubejs:iron_oxide']).id('kubejs:minecraft/shapeless/redstone')
 

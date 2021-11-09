@@ -124,7 +124,10 @@ onEvent('jei.hide.items', e => {
     ])
     simpleHide('tconstruct', [
         'copper_ingot',
-        'cobalt_ingot'
+        'cobalt_ingot',
+        'coin_cast',
+        'coin_sand_cast',
+        'coin_red_sand_cast'
     ])
     
     e.hide('kubejs:shipping_crate')
