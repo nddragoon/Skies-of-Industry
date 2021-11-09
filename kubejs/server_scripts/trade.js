@@ -1,7 +1,6 @@
 onEvent ('recipes', e => {
     function sellProduce (inputItem, inputCount, coinCount) {
         let itemID = inputItem.split(':')[1]
-        console.log(itemID)
         e.recipes.custommachinery.custom_machine('custommachinery:shipping_crate', 5)
             .requireItem(Item.of(inputItem, inputCount), 'input')
             .requireItem(Item.of('kubejs:shipping_stamp/sell_produce', 1), 'catalyst').chance(0)
