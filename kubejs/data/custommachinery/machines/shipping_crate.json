@@ -1,0 +1,61 @@
+{
+    "name": "block.custommachinery.shipping_crate",
+    "appearance": {
+        "block": "kubejs:shipping_crate"
+    },
+    "components": [{
+        "type": "custommachinery:item",
+        "id": "input",
+        "mode": "input"
+    }, {
+        "type": "custommachinery:item",
+        "id": "catalyst",
+        "mode": "input"
+    }, {
+        "type": "custommachinery:item",
+        "id": "output",
+        "mode": "output"
+    }],
+    "gui": [{
+        "type":"custommachinery:player_inventory",
+        "x": 47,
+        "y": 83
+    }, {
+        "type": "custommachinery:slot",
+        "id": "input",
+        "x": 95,
+        "y": 17
+    }, {
+        "type": "custommachinery:slot",
+        "id": "catalyst",
+        "x": 95,
+        "y": 53,
+        "item": "kubejs:shipping_stamp/sell_produce"
+    }, {
+        "type": "custommachinery:slot",
+        "id": "output",
+        "texture": "custommachinery:textures/gui/large_output.png",
+        "x": 151,
+        "y": 31
+    }, {
+        "type": "custommachinery:progress",
+        "x": 119,
+        "y": 36
+    }, {
+        "type": "custommachinery:text",
+        "text": "block.custommachinery.shipping_crate",
+        "x": 48,
+        "y": 6
+    }, {
+        "type": "custommachinery:text",
+        "text": "container.inventory",
+        "x": 48,
+        "y": 73
+    }, {
+        "type": "custommachinery:texture",
+        "x": 40,
+        "y": 0,
+        "texture": "custommachinery:textures/gui/base_background_1.png",
+        "priority": 1000
+    }]
+}

@@ -1,5 +1,5 @@
 
-preferredOres = ["create", "thermal", "jaopca", "immersiveengineering", "minecraft"]
+preferredOres = ["minecraft", "emendatusenigmatica", "thermal", "mekanism", "immersiveengineering"]
 
 [compat]
 	crafttweaker = false
