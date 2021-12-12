@@ -93,7 +93,8 @@ onEvent('jei.hide.items', e => {
         'constantan_plate', 'constantan_ingot',
         'signalum_plate', 'signalum_ingot',
         'lumium_plate', 'lumium_ingot',
-        'enderium_plate', 'enderium_ingot'
+        'enderium_plate', 'enderium_ingot',
+        'coal_coke', 'coal_coke_block'
     ])
     simpleHide('immersiveengineering', [
         'plate_copper', 'ingot_copper',
@@ -106,7 +107,8 @@ onEvent('jei.hide.items', e => {
         'plate_electrum', 'ingot_electrum',
         'plate_steel', 'ingot_steel',
         'plate_iron', 
-        'plate_gold'
+        'plate_gold',
+        'coal_coke', 'dust_coke', 'slab_coke', 'coke'
     ])
     simpleHide('create', [
         'zinc_ingot', 'zinc_ore',

@@ -27,6 +27,11 @@ onEvent('recipes', e => {
         }
     }
 
+    remove({output: [
+        'thermal:coal_coke_block',
+        'immersiveengineering:coke'
+    ]})
+
     e.replaceInput('#forge:ingots/yellorium', '#forge:ingots/uranium')
     e.replaceInput('thermal:sawdust', '#forge:dusts/wood')
 
@@ -45,6 +50,7 @@ onEvent('recipes', e => {
     e.replaceOutput('#forge:dusts/lapis', 'emendatusenigmatica:lapis_dust')
     e.replaceOutput('#forge:dusts/diamond', 'emendatusenigmatica:diamond_dust')
     e.replaceOutput('#forge:dusts/emerald', 'emendatusenigmatica:emerald_dust')
+    e.replaceOutput('#forge:coal_coke', 'emendatusenigmatica:coke_gem')
     
 
     miscMetals(
