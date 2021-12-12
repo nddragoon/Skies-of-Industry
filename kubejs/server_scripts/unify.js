@@ -27,7 +27,7 @@ onEvent('recipes', e => {
         }
     }
 
-    remove({output: [
+    e.remove({output: [
         'thermal:coal_coke_block',
         'immersiveengineering:coke'
     ]})
